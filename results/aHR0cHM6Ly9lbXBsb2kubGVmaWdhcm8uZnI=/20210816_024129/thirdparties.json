@@ -1,0 +1,967 @@
+{
+  "trackers": [
+    {
+      "type": "google fonts",
+      "url": "https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800&display=swap",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google maps",
+      "url": "https://maps.googleapis.com/maps/api/js?key=AIzaSyBQDABJiGLRyZ1jZVhxvxoB25ABsg9zfxk",
+      "details": {
+        "id": "google maps",
+        "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
+      }
+    },
+    {
+      "type": "hotjar",
+      "url": "https://static.hotjar.com/c/hotjar-1760722.js?sv=6",
+      "details": {
+        "id": "hotjar",
+        "message": "Dont use HotJar"
+      }
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KTVSB4D",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1E.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8GBs5tU1E.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://lefigaro.profiles.tagger.opecloud.com/v1/targeting?url=https%3A%2F%2Femploi.lefigaro.fr%2F"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tagger.opecloud.com/lefigaro/v2/tcf-tagger.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.wysistat.com/ws.jsa"
+    },
+    {
+      "type": "unknown",
+      "url": "https://lefigaro.profiles.tagger.opecloud.com/v1/targeting?url=https%3A%2F%2Femploi.lefigaro.fr%2F"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.wysistat.com/statistique.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.wysistat.com/images/lefigaro/compteur.php?nom=lefigaro&tps=227&ecran=800&origine=&origine_force=&frame=0&ParaWysistat=0&CompteurExtranet=0&ParaPage=0&ParaProfiling=0&ParaCompte=0&ParaRoi=0&ojd_version=2&cookie=1&deja_cookie=0&version=3&id=0.30226659256221944_1629080822396&id_int=0.30226659256221944_1629080822396&compteur_mois=1&compteur_jour=1&deja_id=0&vu_diff_jour=0&vu_time_prec=1629080822&page_js=https%3A//emploi.lefigaro.fr/"
+    },
+    {
+      "type": "unknown",
+      "url": "https://lh3.googleusercontent.com/4h0_fQNn9C3Qt2lL9WazKBIDk9-jG14imKnSWXRdClnwX6qCpGBVDMrHqor-1JVFgVTwNsMumizW7U5zkuhj"
+    },
+    {
+      "type": "unknown",
+      "url": "https://lh3.googleusercontent.com/COoPLEQP7dfaGp39eB02vYOsWi0OB-wDWdNPX6mVMewXVKc6HJs5hvN9uxfG1qvVITRCuZU2qOEj9fxSvYM"
+    },
+    {
+      "type": "unknown",
+      "url": "https://lh3.googleusercontent.com/fV_y3VpI7aMT_VSkEspTycHqrmKrywMBsesSBGsxiXe0Ot-DwE-fP5T2ocNVNAmGgaoF0a7llwauytoeUw"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.appconsent.io/loader.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.appconsent.io/tcf2/28.4.0/core.bundle.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tagger.opecloud.com/lefigaro/v2/pixel.gif?url=https%3A%2F%2Femploi.lefigaro.fr%2F&ref=&tz=0&screen=800x600x24&tref=&cmpstatus=gdprdoesnotapply&tcString=undefined&uspstatus=undefined&e=%5B%7B%22type%22%3A%22default%22%2C%22page_attr_url_path_1%22%3A%22%22%2C%22page_attr_url_cleaned%22%3A%22emploi.lefigaro.fr%2F%22%2C%22page_attr_domain%22%3A%22emploi.lefigaro.fr%22%2C%22page_attr_full_domain%22%3A%22emploi.lefigaro.fr%22%2C%22page_attr_page_title%22%3A%22Figaro%20Emploi%20-%20Les%20entreprises%20du%20point%20de%20vue%20de%20leurs%20salari%C3%A9s%22%2C%22page_attr_seen-een%22%3A%22undefined-undefined%22%2C%22page_attr_sourcesite%22%3A%22-undefined%22%2C%22page_attr_code_posta%22%3A%22%22%2C%22page_attr_ctnt_qual%22%3A%22%22%7D%5D"
+    },
+    {
+      "type": "unknown",
+      "url": "https://tagger.opecloud.com/lefigaro/v2/pixel.gif?e=%5B%7B%22type%22%3A%22default%22%2C%22page_attr_url_path_1%22%3A%22%22%2C%22page_attr_url_cleaned%22%3A%22emploi.lefigaro.fr%2F%22%2C%22page_attr_domain%22%3A%22emploi.lefigaro.fr%22%2C%22page_attr_full_domain%22%3A%22emploi.lefigaro.fr%22%2C%22page_attr_page_title%22%3A%22Figaro+Emploi+-+Les+entreprises+du+point+de+vue+de+leurs+salari%C3%A9s%22%2C%22page_attr_seen-een%22%3A%22undefined-undefined%22%2C%22page_attr_sourcesite%22%3A%22-undefined%22%2C%22page_attr_code_posta%22%3A%22%22%2C%22page_attr_ctnt_qual%22%3A%22%22%7D%5D&tref=&url=https%3A%2F%2Femploi.lefigaro.fr%2F&tcString=undefined&tz=0&trackability-redirect=true&ref=&screen=800x600x24&uspstatus=undefined&cmpstatus=gdprdoesnotapply"
+    },
+    {
+      "type": "unknown",
+      "url": "https://secure.adnxs.com/getuid?https%3A%2F%2Ftagger.opecloud.com%2Fappnexus%2Fpbfs.gif%3Fsource%3Dlefigaro%26state%3D2-BT8Xb4noWWhcdg1ezDw9SFpeD6FqglejDgAT%26puid%3D%24UID"
+    },
+    {
+      "type": "google maps",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/14/common.js",
+      "details": {
+        "id": "google maps",
+        "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
+      }
+    },
+    {
+      "type": "google maps",
+      "url": "https://maps.googleapis.com/maps-api-v3/api/js/44/14/util.js",
+      "details": {
+        "id": "google maps",
+        "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
+      }
+    },
+    {
+      "type": "google maps",
+      "url": "https://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttps%3A%2F%2Femploi.lefigaro.fr%2F&4sAIzaSyBQDABJiGLRyZ1jZVhxvxoB25ABsg9zfxk&callback=_xdc_._gt30y0&key=AIzaSyBQDABJiGLRyZ1jZVhxvxoB25ABsg9zfxk&token=619",
+      "details": {
+        "id": "google maps",
+        "message": "Use OpenStreetMap with https://switch2osm.org/the-basics/"
+      }
+    }
+  ],
+  "cookies": [
+    {
+      "name": "Wysistat",
+      "value": "0.30226659256221944_1629080822396%uFFFD1%uFFFD1629080822396%uFFFD1%uFFFD1629080822%uFFFD0.30226659256221944_1629080822396",
+      "domain": "emploi.lefigaro.fr",
+      "path": "/",
+      "expires": 1631672822,
+      "size": 129,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "beta_feedback",
+      "value": "true",
+      "domain": "emploi.lefigaro.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "x-powered-by": "Express",
+    "etag": "\"548b-3hrNXvST3RfygFQ+JUDU3dFfEfk\"",
+    "accept-ranges": "none",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "date": "Mon, 16 Aug 2021 02:26:59 GMT",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 ef6538ee7be7b17c84d06edb0f4c0a1a.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SEA19-C1",
+    "x-amz-cf-id": "4kNGgh5E1AyLS3NjUoSQEZhBCyccCDUOPzZ_-p5tTqJfp3BAy3XPgg=="
+  },
+  "endpoints": [
+    {
+      "hostname": "emploi.lefigaro.fr",
+      "ip": "99.86.37.28",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "fonts.googleapis.com",
+      "ip": "142.250.69.202",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "maps.googleapis.com",
+      "ip": "172.217.14.202",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "static.hotjar.com",
+      "ip": "52.84.169.90",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "www.googletagmanager.com",
+      "ip": "142.250.217.104",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "fonts.gstatic.com",
+      "ip": "142.250.69.195",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "lefigaro.profiles.tagger.opecloud.com",
+      "ip": "35.157.171.203",
+      "geoip": {
+        "city": {
+          "geoname_id": 2925533,
+          "names": {
+            "de": "Frankfurt am Main",
+            "en": "Frankfurt am Main",
+            "es": "Francfort",
+            "fr": "Francfort-sur-le-Main",
+            "ja": "フランクフルト・アム・マイン",
+            "pt-BR": "Frankfurt am Main",
+            "ru": "Франкфурт",
+            "zh-CN": "法兰克福"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 2921044,
+          "is_in_european_union": true,
+          "iso_code": "DE",
+          "names": {
+            "de": "Deutschland",
+            "en": "Germany",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "ja": "ドイツ連邦共和国",
+            "pt-BR": "Alemanha",
+            "ru": "Германия",
+            "zh-CN": "德国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 50.1188,
+          "longitude": 8.6843,
+          "time_zone": "Europe/Berlin"
+        },
+        "postal": {
+          "code": "60313"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 2905330,
+            "iso_code": "HE",
+            "names": {
+              "de": "Hessen",
+              "en": "Hesse",
+              "es": "Hessen",
+              "fr": "Hesse",
+              "ru": "Гессен"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "tagger.opecloud.com",
+      "ip": "35.157.253.142",
+      "geoip": {
+        "city": {
+          "geoname_id": 2925533,
+          "names": {
+            "de": "Frankfurt am Main",
+            "en": "Frankfurt am Main",
+            "es": "Francfort",
+            "fr": "Francfort-sur-le-Main",
+            "ja": "フランクフルト・アム・マイン",
+            "pt-BR": "Frankfurt am Main",
+            "ru": "Франкфурт",
+            "zh-CN": "法兰克福"
+          }
+        },
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 2921044,
+          "is_in_european_union": true,
+          "iso_code": "DE",
+          "names": {
+            "de": "Deutschland",
+            "en": "Germany",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "ja": "ドイツ連邦共和国",
+            "pt-BR": "Alemanha",
+            "ru": "Германия",
+            "zh-CN": "德国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 50.1188,
+          "longitude": 8.6843,
+          "time_zone": "Europe/Berlin"
+        },
+        "postal": {
+          "code": "60313"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 2905330,
+            "iso_code": "HE",
+            "names": {
+              "de": "Hessen",
+              "en": "Hesse",
+              "es": "Hessen",
+              "fr": "Hesse",
+              "ru": "Гессен"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.wysistat.com",
+      "ip": "95.142.164.52",
+      "geoip": {
+        "continent": {
+          "code": "EU",
+          "geoname_id": 6255148,
+          "names": {
+            "de": "Europa",
+            "en": "Europe",
+            "es": "Europa",
+            "fr": "Europe",
+            "ja": "ヨーロッパ",
+            "pt-BR": "Europa",
+            "ru": "Европа",
+            "zh-CN": "欧洲"
+          }
+        },
+        "country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 500,
+          "latitude": 48.8582,
+          "longitude": 2.3387,
+          "time_zone": "Europe/Paris"
+        },
+        "registered_country": {
+          "geoname_id": 3017382,
+          "is_in_european_union": true,
+          "iso_code": "FR",
+          "names": {
+            "de": "Frankreich",
+            "en": "France",
+            "es": "Francia",
+            "fr": "France",
+            "ja": "フランス共和国",
+            "pt-BR": "França",
+            "ru": "Франция",
+            "zh-CN": "法国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "lh3.googleusercontent.com",
+      "ip": "172.217.14.193",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "cdn.appconsent.io",
+      "ip": "35.227.209.167",
+      "geoip": {
+        "city": {
+          "geoname_id": 4393217,
+          "names": {
+            "de": "Kansas City",
+            "en": "Kansas City",
+            "es": "Kansas City",
+            "fr": "Kansas City",
+            "ja": "カンザスシティ",
+            "pt-BR": "Kansas City",
+            "ru": "Канзас-Сити"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 39.1027,
+          "longitude": -94.5778,
+          "metro_code": 616,
+          "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "64121"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4398678,
+            "iso_code": "MO",
+            "names": {
+              "en": "Missouri",
+              "es": "Missouri",
+              "fr": "Missouri",
+              "ja": "ミズーリ州",
+              "pt-BR": "Missúri",
+              "ru": "Миссури",
+              "zh-CN": "密苏里州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "secure.adnxs.com",
+      "ip": "104.254.149.101",
+      "geoip": {
+        "city": {
+          "geoname_id": 5368361,
+          "names": {
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "90009"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États-Unis",
+            "ja": "アメリカ合衆国",
+            "pt-BR": "Estados Unidos",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
